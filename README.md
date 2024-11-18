@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+#Meme Generator
+
+This Meme Generator uses State to change the data according to users's needs thus displaying the use of State in React
+
+![image](https://github.com/user-attachments/assets/4511fe30-e2dc-472e-aefd-9e04214db910)
+![image](https://github.com/user-attachments/assets/cff23cc6-d69f-46c3-9422-ebe6cf40d743)
+![image](https://github.com/user-attachments/assets/d769905a-8ec6-4679-b37a-899a9ff617d2)
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
