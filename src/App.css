@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+*{
+  padding: 0%;
+  margin: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  height: 90px;
+  width: 90px;
+  float: left;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head{
+  font-size: 2.5rem;
+  padding-top: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav{
+  height: 150px;
+  box-shadow: 0px 2.98px 7.45px black;
+  background-color: #219ebc;
+}
+/************************************************************************************************************/
+.form{
+  display: grid;
+  grid-template: 60px 60px / 1fr 1fr;
+  gap:17px
+}
+
+main{
+  padding: 90px;
+}
+
+.form--input{
+  border-radius: 5px;
+  border:1px solid #D5D4D8;
+  text-indent: 5px;
+  font-size: 1.25rem;
+}
+
+
+
+
+.form--button{
+  grid-column: 1/-1;
+  border-radius: 5px;
+  border:1px solid #D5D4D8;
+  cursor: pointer;
+  background-color: #219ebc;
   color: white;
+  font-size: 1.25rem;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.image{
+  position: relative;
+  height: 800px;
+  width:800px;
+  padding-top: 20px;
+  padding-left: 200px;
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top{
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 500px;
+  font-size: 4.8rem;
 }
+
+.bottom{
+  position: absolute;
+  padding-top: 700px;
+  padding-left: 500px;
+  font-size: 4.8rem;
+
+}
+
